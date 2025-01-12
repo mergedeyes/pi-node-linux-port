@@ -8,7 +8,8 @@
 ---
 #### Running the container on Ubuntu:
 - Commands:
- 2 2025-01-12 17:41:36 sudo apt update && sudo apt upgrade -y
+
+2 2025-01-12 17:41:36 sudo apt update && sudo apt upgrade -y
 4 2025-01-12 17:41:36 sudo apt install nano -y
 7 2025-01-12 17:42:00 cd /tmp/
 8 2025-01-12 17:42:03 wget https://downloads.minepi.com/Pi%20Network%20Setup%200.5.0.exe
@@ -45,7 +46,9 @@
 112 2025-01-12 18:20:12 cd /tmp/Pi-Node/extracted_asar/
 113 2025-01-12 18:20:16 npx electron . --no-sandbox
 130 2025-01-12 18:26:29 sudo docker run -d --name testnet2 --env-file "/home/master/.config/Pi Network/testnet2.env" -v "/home/master/.config/Pi Network/docker_volumes/testnet_2/stellar:/opt/stellar" -v "/home/master/.config/Pi Network/docker_volumes/testnet_2/supervisor_logs:/var/log/supervisor" -v "/home/master/.config/Pi Network/docker_volumes/testnet_2/history:/history" -p 31401:8000 -p 31402:31402 -p 31403:1570 pinetwork/pi-node-docker:protocol18.4 --testnet2
+
 - Log of the testnet2 container:
+
 Starting Stellar Quickstart
 mode: persistent
 network: testnet2 (Pi Testnet)
@@ -76,7 +79,9 @@ starting supervisor
 2025-01-12 18:27:02,574 INFO reaped unknown pid 131
 2025-01-12 18:27:03,592 INFO success: postgresql entered RUNNING state, process has stayed up for  than 1 seconds (startsecs)
 2025-01-12 18:27:03,593 INFO success: stellar-core entered RUNNING state, process has stayed up for  than 1 seconds (startsecs)
+
 - Container status:
+
  CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS
 NAMES
 4672671e5c3a pinetwork/pi-node-docker:protocol18.4 "/start --testnet2" 5 minutes ago Up 5 minutes 5432/tcp, > 0.0.0.0:31402->31402/tcp, :::31402->31402/tcp, 0.0.0.0:31403->1570/tcp, :::31403->1570/tcp, 0.0.0.0:31401->8000/tcp, :::31401->8000/tcp testnet2
