@@ -7,7 +7,7 @@
 ### What I have done so far:
 ---
 #### Running the container on Ubuntu:
-- Commands:
+- Commands (DISCLAIMER: MIGHT BE INCOMPLETE OR HAVE UNNECESSARY COMMANDS):
 ```
 2 2025-01-12 17:41:36 sudo apt update && sudo apt upgrade -y
 4 2025-01-12 17:41:36 sudo apt install nano -y
