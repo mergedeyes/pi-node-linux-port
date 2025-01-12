@@ -92,7 +92,7 @@ NAMES
 - Run: "npm install" to install the necessary dependencies
 - Installed js-beautify to view the main.js: npm install -g js-beautify
 - Run: js-beautify dist\main\main.js -o readable_main.js
-- Replaced the main.js in /dist/main with the readable_main.js and renamed to main.js
+- Replaced the main.js in dist\main\ with the readable_main.js and renamed to main.js
 - Edited the path of the preload.js to match ./preload.js
 - Run: npx electron . --enable-logging --remote-debugging-port=9222 --remote-allow-origins=http://localhost:9222
 - UI-App starts and can be used as normal with debugging in the CMD Window
