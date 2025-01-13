@@ -86,7 +86,7 @@ NAMES
 4672671e5c3a pinetwork/pi-node-docker:protocol18.4 "/start --testnet2" 5 minutes ago Up 5 minutes 5432/tcp, > 0.0.0.0:31402->31402/tcp, :::31402->31402/tcp, 0.0.0.0:31403->1570/tcp, :::31403->1570/tcp, 0.0.0.0:31401->8000/tcp, :::31401->8000/tcp testnet2
 ```
 #### Debugging of the Windows app:
-- Copied the extraced_apar folder to my windows machine
+- Copied the extracted_apar folder to my windows machine
 - Installed NVM on Windows
 - Opened CMD in the apar folder
 - Run: "npm install" to install the necessary dependencies
