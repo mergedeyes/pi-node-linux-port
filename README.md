@@ -1,3 +1,8 @@
+> **DISCLAIMER:** Since the Coreteam released a dedicated Linx Node a while back, this project is marked as not maintained anymore.
+>
+> For the official Linux version see: https://minepi.com/pi-blockchain/pi-node/linux/
+
+
 # pi-node-linux-port
 
 ## This is a project to port the existing Pi-Network Node Application to Linux (Ubuntu 24.04)
