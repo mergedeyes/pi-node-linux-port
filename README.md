@@ -1,4 +1,4 @@
-> **DISCLAIMER:** Since the Coreteam released a dedicated Linx Node a while back, this project is marked as not maintained anymore.
+> **DISCLAIMER:** Since the Coreteam released a dedicated Linux Node a while back, this project is marked as not maintained anymore.
 >
 > For the official Linux version see: https://minepi.com/pi-blockchain/pi-node/linux/
 
